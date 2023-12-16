@@ -1,0 +1,211 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  color: #009b60;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.input-group a:hover {
+  color: #009b60;
+  text-decoration: underline;
+}
+
+.l-links {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.l-links a {
+  color: #0056b3;
+  text-decoration: none; 
+}
+
+.l-links a:hover {
+  color: #5186bb; 
+  text-decoration: none; 
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: calc(100% - 16px);
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #009b60;
+}
+
+.button {
+  background-color: #009b60;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+select:hover {
+  border-color: #009b60;
+}
+
+#taskList li {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 10px;
+  transition: border-color 0.3s ease;
+  text-align: center;
+}
+
+#taskList li:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#taskList li:hover {
+  border-color: #009b60;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  text-align: center;
+  color: green;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#name,
+#email,
+#password {
+  border-color: #3498db; 
+  border-radius: 4px;
+}
+
+.form-button {
+  background-color: #3498db; 
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block; 
+  margin: 0 auto; 
+}
+
+.form-button:hover {
+  background-color: #2980b9; 
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}

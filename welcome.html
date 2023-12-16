@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/welcome.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <style>
+          footer {
+        background-color:#247BBA;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      #copyright{
+        color: #fff;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+  
+      li {
+        margin-bottom: 10px;
+      }
+      a {
+    text-decoration: none; 
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: black;
+  }
+
+  header {
+  background: linear-gradient(to right, #3498db, #2072b0);
+  color: #fff;
+  text-align: right;
+  height: 60px;
+}
+
+
+header img {
+  width: 150px;
+  height: 120px;
+  margin-left: 26px;
+  position: relative;
+  top: 30px;
+  z-index: 2;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  float: right;
+  margin-top: 20px; /* Adjust this value as needed */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: darkgray;
+}
+
+
+
+      </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        
+        <ul class="navbar">
+          <li><a href="welcome.html">Home</a></li>
+          <li><a href="aboutv.html">About Us</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header> 
+    <main>
+      <section class="main">
+        <div class="main-content">
+          <h1>
+            Welcome to BudgetBuddy<br />
+            Your Financial Companion
+          </h1>
+          <br />
+          <p>
+            Take control of your financial journey with BudgetBuddy, a comprehensive and user-friendly personal finance tool. Start your journey toward financial wellness today!
+          </p>
+          <button><a href="home.html" class="no-underline">Get Started</a></button>
+        </div>
+
+        <div class="accordion">
+          <h1>Benefits</h1>
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <h2>Improved Decision-Making</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Expense trackers provide valuable insights into spending habits, enabling users to make more informed financial decisions. By having a clear overview of where money is being spent, individuals can identify areas where adjustments can be made. This information empowers users to make strategic decisions about their expenses, prioritize needs over wants, and allocate resources more effectively.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header"><h2>Reduced Financial Stress</h2></div>
+            <div class="accordion-content">
+              <p>
+                Tracking expenses and having a comprehensive view of one's financial situation can significantly reduce stress related to money management. Users can proactively address financial challenges, avoid overspending, and stay within their budget. The peace of mind that comes with knowing where money is going and having a plan in place contributes to overall mental well-being.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header"><h2>Automated Record Keeping</h2></div>
+            <div class="accordion-content">
+              <p>
+                Many expense trackers offer automation features that streamline the process of recording and categorizing transactions. By linking bank accounts and credit cards, transactions are automatically imported and categorized, saving users time and effort. This automated record-keeping ensures accuracy and completeness in financial records, making it easier for users to track their financial history for tax purposes or financial reviews.              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="Js/welcome.js"></script>
+  </body>
+  <footer>
+    <div>
+      <h3>Quick Links</h3><br>
+      <ul>
+        <li>
+          <a href="welcome.html">Home</a>
+        </li>
+        <li>
+          <a href="aboutv.html">About Us</a>
+        </li>
+        <li>
+          <a href="Login">Login</a>
+        </li>
+      </ul>
+    </div><br>
+  
+  <p id="copyright">Copyright @ 2023 Group 4 Expense Tracker</p>
+</footer>
+  </html>
+
